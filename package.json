@@ -1,0 +1,30 @@
+{
+  "name": "speechrecognition",
+  "version": "1.0.0",
+  "description": "converts speech to text",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixtusiwuchukwu/speechRecogitioin.git"
+  },
+  "keywords": [
+    "voicerecognition",
+    "javascript",
+    "speechtotext"
+  ],
+  "author": "sixtus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixtusiwuchukwu/speechRecogitioin/issues"
+  },
+  "homepage": "https://github.com/sixtusiwuchukwu/speechRecogitioin#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

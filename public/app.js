@@ -49,7 +49,7 @@ mic.addEventListener("click", () => {
   // if (mic.style.backgroundColor == "#6BD6E1") {
   //   recognition.stop();
   //   mic.style.backgroundColor = null;
-  //   console.log("it is true");
+
   // } else {
   recognition.start();
   mic.style.borderColor = "#6BD6E1";
