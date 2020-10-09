@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.render("speech.html");
 });
 
-const PORT = process.env.Port || 8888;
+const PORT = process.env.PORT || 8888;
 app.listen(PORT, () => {
   console.log(`server listening on port ${PORT}`);
 });
